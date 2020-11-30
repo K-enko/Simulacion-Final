@@ -33,8 +33,6 @@ void Taller::meter()
 			cout << "Ingrese el color del vehiculo: ";
 			getline(cin, vehiculo[num_vehiculos] -> color);
 			cout << "Ingrese el motor del vehiculo: ";
-			cin >> vehiculo[num_vehiculos] -> motor;
-			cin.ignore();
 		}
 		else
 		{
@@ -45,9 +43,6 @@ void Taller::meter()
 			    getline(cin, vehiculo[num_vehiculos] -> marca);
 			    cout << "Ingrese el color del vehiculo: ";
 			    getline(cin, vehiculo[num_vehiculos] -> color);
-			    cout << "Ingrese el motor del vehiculo: ";
-			    cin >> vehiculo[num_vehiculos] -> cilindrada;
-			    cin.ignore();
 			}
 		}
 	}
